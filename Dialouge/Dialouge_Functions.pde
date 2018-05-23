@@ -24,7 +24,7 @@ public void drawDialouge(){
      int space;
      space = dial.lastIndexOf(" ");
      text(dialogue.get(text).substring(i*60-pos, i*60 +space),10,textRow);
-     pos=60-space-1;
+     pos=59-space;
    }
   
   textRow=textRow+20;
